@@ -1,5 +1,9 @@
 # Design patterns
 
+<p align="center">
+  <img src="https://i.imgur.com/710ohwL.jpg"/>
+</p>
+
 ### Histoire
 
 Formalisés dans le livre du « Gang of Four » (GoF, Erich Gamma, Richard Helm, Ralph Johnson (en) et John Vlissides (en)) intitulé Design Patterns – Elements of Reusable Object-Oriented Software en 1995. Les patrons de conception tirent leur origine des travaux de l'architecte Christopher Alexander dans les années 70, dont son livre A Pattern Language définit un ensemble de patrons d'architecture.
@@ -260,7 +264,7 @@ $jobPostings->addJob(new JobPost('Software Engineer'));
 // Hi Jane Doe! New job posted: Software Engineer
 ```
 
-##### Decorate:
+##### Decorateur:
 
 Ce patron permet d'attacher dynamiquement des responsabilités à un objet. Une alternative à l'héritage.Ce patron est inspiré des poupées russes. Un objet peut être caché à l'intérieur d'un autre objet décorateur qui lui rajoutera des fonctionnalités, l'ensemble peut être décoré avec un autre objet qui lui ajoute des fonctionnalités et ainsi de suite. Cette technique nécessite que l'objet décoré et ses décorateurs implémentent la même interface, qui est typiquement définie par une classe abstraite.
 
