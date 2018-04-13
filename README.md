@@ -1,5 +1,3 @@
-# Design patterns
-
 <p align="center">
   <img src="https://i.imgur.com/710ohwL.jpg"/>
 </p>
