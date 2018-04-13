@@ -1,4 +1,4 @@
-# DesignPattern
+# Design patterns
 
 ### Histoire
 
@@ -56,7 +56,7 @@ class PorteEnBois implements Porte
     }
 }
 ```
-Then we have our door factory that makes the door and returns it
+Ensuite, nous avons notre usine de porte qui créer une porte et la retourne
 ```php
 class PorteFactory
 {
@@ -284,7 +284,7 @@ class SimpleCoffee implements Coffee
     }
 }
 ```
-We want to make the code extensible to allow options to modify it if required. Lets make some add-ons (decorators)
+Créons quelques extensions, afin d'ajouter des options de modification
 ```php
 class MilkCoffee implements Coffee
 {
@@ -347,7 +347,7 @@ class VanillaCoffee implements Coffee
 }
 ```
 
-Lets make a coffee now
+Faisont du café
 
 ```php
 $someCoffee = new SimpleCoffee();
@@ -403,7 +403,7 @@ final class President
     }
 }
 ```
-Then in order to use
+Puis pour l'utiliser
 ```php
 $president1 = President::getInstance();
 $president2 = President::getInstance();
@@ -488,3 +488,8 @@ Ce patron représente une opération à effectuer sur un ensemble d'objets. Perm
 ##### Modèle-vue-contrôleur:
 
 Combinaison des patrons observateur, stratégie et composite, ce qui forme ainsi un patron d'architecture.
+
+
+<p align="center">
+  <img src="https://i.imgur.com/c7BWpUx.png"/>
+</p>
